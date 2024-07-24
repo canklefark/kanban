@@ -5,6 +5,8 @@
 	import VscodeIconsFileTypeTailwind from '~icons/vscode-icons/file-type-tailwind';
 	import VscodeIconsFileTypePostcss from '~icons/vscode-icons/file-type-postcss';
 
+	import IonHomeOutline from '~icons/ion/home-outline';
+
 	const drawerStore = getDrawerStore();
 	let currentTile: number = 0;
 
@@ -24,7 +26,7 @@
 <AppRail>
 	<svelte:fragment slot="lead">
 		<AppRailAnchor href="/" regionLabel="flex justify-center items-center">
-			<VscodeIconsFileTypeSvelte class="text-3xl" />
+			<IonHomeOutline class="text-2xl" />
 		</AppRailAnchor>
 	</svelte:fragment>
 	<!-- --- -->
